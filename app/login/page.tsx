@@ -74,7 +74,7 @@ const LoginForm = ({ className }: { className?: string }) => {
               <form onSubmit={handleSignIn}>
                 {displayError && (
                   <p className="text-red-500 text-sm text-center mb-4">
-                    {displayError}
+                    Invalid credentials. Please try again.
                   </p>
                 )}
                 <div className="flex flex-col gap-6">
