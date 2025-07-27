@@ -130,6 +130,4 @@ const LoginForm = ({ className }: { className?: string }) => {
   );
 };
 
-export default function LoginPage() {
-  return <LoginForm />;
-}
+export default LoginForm;
