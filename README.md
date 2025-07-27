@@ -148,6 +148,28 @@ job_listing_app/
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
+## 📸 Preview
+
+Sign Up Page
+<img width="1440" height="776" alt="Screenshot 2025-07-27 at 11 43 35 at night" src="https://github.com/user-attachments/assets/6551c7fc-2810-4469-a0d8-e8c9771e8a7d" />
+
+If user already exists
+<img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 47 14 at night" src="https://github.com/user-attachments/assets/e8ea129d-ab33-4e3b-a440-bcd2a36f65ad" />
+
+Verification Page
+<img width="1440" height="773" alt="Screenshot 2025-07-27 at 11 43 59 at night" src="https://github.com/user-attachments/assets/741274bf-4151-46bd-b1c9-39ae8f8239ac" />
+
+<img width="1440" height="815" alt="Screenshot 2025-07-27 at 11 44 32 at night" src="https://github.com/user-attachments/assets/23da61c6-25eb-4a42-9bdb-e28ef60cc176" />
+
+Login Page
+<img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 07 at night" src="https://github.com/user-attachments/assets/d480f625-a6f5-4c44-9863-f4394e3de5ad" />
+
+If invalid credentials are given
+<img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 46 37 at night" src="https://github.com/user-attachments/assets/b9c0c12b-4a73-4e9c-9597-36f969a52f5a" />
+
+Main Page
+<img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 29 at night" src="https://github.com/user-attachments/assets/bd012f20-64b0-4d7d-8c63-86b6a15169b3" />
+
 ## 🔐 Authentication Flow
 
 ### Login Process
@@ -169,39 +191,6 @@ job_listing_app/
 - Click "Log out" button in header
 - NextAuth clears session and JWT token
 - User redirected to login page
-
-## 📊 API Integration
-
-### External API Endpoints
-
-- **Base URL**: `https://akil-backend.onrender.com/`
-- **Authentication**: `POST /login` - User authentication
-- **Job Listings**: `GET /opportunities/search` - Fetch all jobs
-- **Job Details**: `GET /opportunities/{id}` - Fetch specific job
-
-### API Configuration
-
-- Modify `baseUrl` in `app/apiSlice.ts` to use different backend
-- Extend API slice for additional endpoints
-- Customize data transformation logic
-
-### Authentication Providers
-
-- Add more OAuth providers in `app/api/auth/[...nextauth]/options.ts`
-- Configure custom credential validation
-- Modify session and JWT callbacks
-
-### Styling
-
-- Update Tailwind classes in components
-- Modify global styles in `app/globals.css`
-- Configure DaisyUI theme in `tailwind.config.js`
-
-### Deploy on Vercel
-
-1. Connect your GitHub repository to Vercel
-2. Add environment variables in Vercel dashboard
-3. Deploy automatically on git push
 
 ## 🔗 Learn More
 
