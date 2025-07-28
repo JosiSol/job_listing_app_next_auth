@@ -165,7 +165,7 @@ Login Page
 <img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 07 at night" src="https://github.com/user-attachments/assets/d480f625-a6f5-4c44-9863-f4394e3de5ad" />
 
 If invalid credentials are given
-<img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 46 37 at night" src="https://github.com/user-attachments/assets/b9c0c12b-4a73-4e9c-9597-36f969a52f5a" />
+<img width="1440" height="775" alt="Screenshot 2025-07-28 at 10 57 52 in the morning" src="https://github.com/user-attachments/assets/3f6dc681-b3dd-49c4-914a-c848fa1522e3" />
 
 Main Page
 <img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 29 at night" src="https://github.com/user-attachments/assets/bd012f20-64b0-4d7d-8c63-86b6a15169b3" />
