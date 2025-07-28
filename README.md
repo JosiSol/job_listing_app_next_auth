@@ -170,6 +170,9 @@ If invalid credentials are given
 Main Page
 <img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 29 at night" src="https://github.com/user-attachments/assets/bd012f20-64b0-4d7d-8c63-86b6a15169b3" />
 
+Log Out Prompt
+<img width="1440" height="821" alt="Screenshot 2025-07-28 at 10 50 21 in the morning" src="https://github.com/user-attachments/assets/f5e02401-ae32-4528-a49e-1420aab3a17c" />
+
 ## 🔐 Authentication Flow
 
 ### Login Process
