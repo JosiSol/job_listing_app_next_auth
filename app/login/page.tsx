@@ -67,9 +67,9 @@ const LoginForm = ({ className }: { className?: string }) => {
   };
 
   return (
-    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10 bg-muted">
+    <div className="flex min-h-svh w-full items-center justify-center md:p-10 bg-muted">
       <div className="w-full max-w-sm">
-        <div className={cn("flex flex-col gap-6", className)}>
+        <div className={cn("flex flex-col gap-4", className)}>
           <Card>
             <CardHeader>
               <CardTitle
@@ -81,9 +81,22 @@ const LoginForm = ({ className }: { className?: string }) => {
             <CardContent>
               <form onSubmit={handleSignIn}>
                 {displayError && (
-                  <p className="text-red-500 text-sm text-center mb-4">
-                    Invalid credentials. Please try again.
-                  </p>
+                  <div role="alert" className="alert alert-error mb-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 shrink-0 stroke-current"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>Invalid Credentials. Please try again.</span>
+                  </div>
                 )}
                 <div className="flex flex-col gap-6">
                   <div className="grid gap-3">
