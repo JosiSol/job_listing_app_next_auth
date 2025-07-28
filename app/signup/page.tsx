@@ -123,8 +123,8 @@ const SignUpPage = () => {
           <Button
             variant="outline"
             className="w-full py-2 flex items-center justify-center gap-2 border border-gray-400 text-blue-600 rounded-sm hover:bg-gray-100 transition-colors"
+            type="button"
             onClick={handleGoogleSignIn}
-            disabled={loading}
           >
             <FcGoogle className="text-2xl" />
             Sign Up with Google

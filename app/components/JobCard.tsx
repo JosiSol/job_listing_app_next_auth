@@ -49,10 +49,12 @@ export default function JobCardPage() {
   const { data: jobs, error, isLoading } = useGetJobsQuery();
 
   const handleLogout = async () => {
-    await signOut({
-      callbackUrl: "/login",
-      redirect: true,
-    });
+    if (confirm("Are you sure? ")) {
+      await signOut({
+        callbackUrl: "/login",
+        redirect: true,
+      });
+    } else return;
   };
 
   if (isLoading) {

@@ -55,7 +55,15 @@ const LoginForm = ({ className }: { className?: string }) => {
   };
 
   const handleGoogleSignIn = async () => {
-    await signIn("google", { callbackUrl: "/" });
+    setLoading(true);
+    setError("");
+    try {
+      await signIn("google", { callbackUrl: "/jobcard" });
+    } catch (e: any) {
+      setError(e.message || "Google sign-in failed.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -106,7 +114,7 @@ const LoginForm = ({ className }: { className?: string }) => {
                     </Button>
                     <Button
                       variant="outline"
-                      className="w-full"
+                      className="w-full py-2 flex items-center justify-center gap-2 border border-gray-400 text-blue-600 rounded-sm hover:bg-gray-100 transition-colors"
                       type="button"
                       onClick={handleGoogleSignIn}
                     >
