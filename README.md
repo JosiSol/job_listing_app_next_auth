@@ -167,6 +167,9 @@ Login Page
 If invalid credentials are given
 <img width="1440" height="775" alt="Screenshot 2025-07-28 at 10 57 52 in the morning" src="https://github.com/user-attachments/assets/3f6dc681-b3dd-49c4-914a-c848fa1522e3" />
 
+Fully Functional Google Sign In
+<img width="1440" height="774" alt="Screenshot 2025-07-29 at 11 36 39 in the morning" src="https://github.com/user-attachments/assets/09b8d7f6-5571-44bc-a848-232299745ad7" />
+
 Main Page
 <img width="1440" height="775" alt="Screenshot 2025-07-27 at 11 45 29 at night" src="https://github.com/user-attachments/assets/bd012f20-64b0-4d7d-8c63-86b6a15169b3" />
 
