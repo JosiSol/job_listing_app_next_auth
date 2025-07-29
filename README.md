@@ -116,7 +116,6 @@ job_listing_app/
 │   │           └── route.ts      # Auth API routes
 │   ├── components/
 │   │   ├── JobCard.tsx          # Job card component with logout
-│   │   ├── NextAuthProvider.tsx # NextAuth session provider
 │   │   └── ReduxProvider.tsx    # Redux store provider
 │   ├── jobs/
 │   │   └── [jobId]/
@@ -133,7 +132,7 @@ job_listing_app/
 │   ├── layout.tsx              # Root layout with providers
 │   └── page.tsx                # Protected home page
 ├── ui_components/
-│   └── ui/                     # Reusable UI components
+│   └── ui/                     # Reusable shadcn UI components
 ├── .env.local                  # Environment variables
 ├── .env.example               # Environment template
 ├── next.config.ts             # Next.js configuration
@@ -196,7 +195,7 @@ Log Out Prompt
 
 - Click "Log out" button in header
 - NextAuth clears session and JWT token
-- User redirected to login page
+- User redirected back to login page
 
 ## 🔗 Learn More
 
