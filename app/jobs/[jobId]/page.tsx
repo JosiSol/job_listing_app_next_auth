@@ -171,7 +171,7 @@ export default function JobDetailsPage() {
                   jobCategories.map((cat) => (
                     <div
                       key={cat}
-                      className="badge badge-accent badge-soft text-xs p-4"
+                      className="badge badge-accent badge-soft font-bold text-xs p-4"
                     >
                       {cat}
                     </div>
@@ -191,7 +191,7 @@ export default function JobDetailsPage() {
                   jobRequired.map((skill) => (
                     <div
                       key={skill}
-                      className="badge badge-info badge-outline text-xs"
+                      className="badge badge-info badge-soft text-xs font-bold p-4"
                     >
                       {skill}
                     </div>
